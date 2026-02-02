@@ -53,4 +53,13 @@ print(f"| {'roll':^10} | {'name':^15} | {'marks':^10} |")
 print("-" * 45)
 
 for s in students:
+
     print(f"| {s['roll']:^10} | {s['name']:^15} | {s['marks']:^10} |")
+
+
+# ---------------------------------------------
+# |    roll    |      name       |   marks    |
+# ---------------------------------------------
+# |     1      |       abc       |     70     |
+# |     2      |       xyz       |     80     |
+# PS C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code> 
